@@ -1,60 +1,64 @@
-import re
+def clean_value(value):
+
+    if value is None:
+        return None
+
+    if isinstance(value, str):
+        value = value.strip()
+
+        if value.lower() in [
+            "",
+            "null",
+            "unknown",
+            "not specified",
+            "not mentioned"
+        ]:
+            return None
+
+        return value
+
+    return value
 
 
-EXPECTED_FIELDS = [
-    "activity",
-    "hazard",
-    "location",
-    "unsafe_act",
-    "unsafe_condition",
-    "barrier_failure",
-    "potential_consequence",
-    "evidence"
-]
+def normalize_result(result):
 
+    normalized = {}
 
-def normalize_key(key):
+    fields = [
+        "activity",
+        "hazard",
+        "location",
+        "unsafe_act",
+        "unsafe_condition",
+        "barrier_failure",
+        "potential_consequence",
+        "primary_lsr",
+        "secondary_lsr"
+    ]
 
-    key = key.lower().strip()
+    for field in fields:
+        normalized[field] = clean_value(
+            result.get(field)
+        )
 
-    # Replace spaces with underscores
-    key = re.sub(r"\s+", "_", key)
+    # Evidence
+    evidence = result.get("evidence", [])
 
-    # Remove spaces around underscores
-    key = re.sub(r"\s*_\s*", "_", key)
-
-    return key
-
-
-def normalize_result(raw_result):
-
-    result = {}
-
-    # Normalize all keys returned by Qwen
-    normalized_raw = {}
-
-    for key, value in raw_result.items():
-
-        normalized_key = normalize_key(key)
-
-        normalized_raw[normalized_key] = value
-
-
-    # Create our fixed schema
-    for field in EXPECTED_FIELDS:
-
-        result[field] = normalized_raw.get(field, None)
-
-
-    # Evidence should always be a list
-    if result["evidence"] is None:
-
-        result["evidence"] = []
-
-    elif isinstance(result["evidence"], str):
-
-        result["evidence"] = [
-            result["evidence"]
+    if isinstance(evidence, list):
+        normalized["evidence"] = [
+            str(item).strip()
+            for item in evidence
+            if item
         ]
+    else:
+        normalized["evidence"] = []
 
-    return result
+    # Confidence
+    confidence = result.get("confidence", 0)
+
+    try:
+        normalized["confidence"] = float(confidence)
+    except:
+        normalized["confidence"] = 0.0
+
+    return normalized

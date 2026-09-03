@@ -1,0 +1,1095 @@
+[
+  {
+    "report_id": "2025sh.pdf_report_0",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 13 Mar 2025\nCOUNTRY: Gabon\nFUNCTION: Drilling\nCAUSE: Caught in, under or between (excl. dropped objects)\nACTIVITY: Transport - Land\nPRIMARY LIFE-SAVING RULE: Driving\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nOn Thursday March 13th, 2025, the crew change bus had a road accident. It was 18h30 and after a heavy rain at the\ntime of the incident.\nThe bus driver was driving too close to the road edge to avoid potholes of the road section. While doing so a part of\nthe road edge collapsed under the right front bus tire making the bus end its trajectory on the pipelines on the side\nof the road with 28 pax on board.\nImmediate action:\n• An alcohol test was performed (negative).\n• The TAG removed.\n• Rearranged work because of restricted mobility due to ankle sprain.\nWHAT WENT WRONG:\nRoad accident: Bus swerved to avoid potholes and crashed ending up on its side. During emergency exit, one\npassenger twisted his ankle badly and ended with a lost injury.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nThe bus had design flaws, and all buses of this type were completely removed from our bus fleet. In addition, the\nprocedure for driving on our laterite roads was reviewed.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Work or motion at improper speed\nPROCESS (CONDITIONS): Work Place Hazards: Inadequate surfaces, floors, walkways or roads\nPROCESS (CONDITIONS): Work Place Hazards: Storms or acts of nature\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n5\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE",
+    "raw_extraction": {
+      "activity": "Transport - Land",
+      "hazard": "vehicle/road hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate surfaces, floors, walkways or roads",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "lost injury",
+      "primary_lsr": "Driving",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Road accident: Bus swerved to avoid potholes and crashed ending up on its side. During emergency exit, one\npassenger twisted his ankle badly and ended with a lost injury.",
+        "improper position",
+        "inadequate surfaces, floors, walkways or roads",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "normalized_extraction": {
+      "activity": "Transport - Land",
+      "hazard": "vehicle/road hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate surfaces, floors, walkways or roads",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "lost injury",
+      "primary_lsr": "Driving",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Road accident: Bus swerved to avoid potholes and crashed ending up on its side. During emergency exit, one\npassenger twisted his ankle badly and ended with a lost injury.",
+        "improper position",
+        "inadequate surfaces, floors, walkways or roads",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 8,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Driving (+1)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: vehicle/road hazard (+2)",
+        "Potential consequence: lost injury (+1)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_1",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 01 May 2025\nCOUNTRY: Gabon\nFUNCTION: Drilling\nCAUSE: Struck by (not dropped object)\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nAt around 4am on 1st of May, the two men on the crane were assigned to a new location. The operation involved\ndepositing the counterweights. Following a counter-order from the supervisor, they had to carry out a final lift\nbefore going on to the new location. The spider chains were replaced on the counterweights. As the chains are\nlifted, one of the hooks gets caught in the guide of the counterweight. When the chains come off, they have a spring\neffect. The banksman can't reasonably control three of them and the fourth spins around him with his back lower.\nThe spider chain hit the banksman at the back. The IP received pain killer treatment before transferring to hospital\nby chopper. The IP suffered a permanent impairment injury.\nWHAT WENT WRONG:\nThe banksman was hit by one of the four hooks on the spider chain.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n• Poor work planning.\n• Inadequate communication between workers.\n• Inadequate execution of the operation.\n• Failure to follow lifting procedures, resulting in risks becoming normalized.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPEOPLE (ACTS): Inattention/Lack of Awareness: Improper decision making or lack of judgment\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\nPROCESS (CONDITIONS): Organizational: Inadequate communication\nPROCESS (CONDITIONS): Organizational: Poor leadership/organizational culture\n6\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "permanent impairment injury",
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "The banksman was hit by one of the four hooks on the spider chain.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "permanent impairment injury",
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "The banksman was hit by one of the four hooks on the spider chain.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 13,
+      "sif_level": "HIGH",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: lifting hazard (+2)",
+        "Potential consequence: permanent impairment injury (+5)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_2",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 18 Aug 2025\nCOUNTRY: Gabon\nFUNCTION: Drilling\nCAUSE: Struck by (not dropped object)\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Line of fire\nSECONARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nOn 18 August 2025, a team was installing a 6-inch pipe over a 35-metre section between two lines. This pipe was\nalso to be used during WO operations. During the operation, the team separated a 6-inch pipe from a 2-inch pipe,\nboth of which had previously been tied together with cords. During the lifting phase, the cords were gradually cut\nto separate the two pipes. When the third cord was cut, the tension accumulated in the 6-inch pipe, which was\nbent at the time, was suddenly released. The pipe rebounded and struck an operator's right leg between the ankle\nand knee, causing an open fracture. The supervisor was immediately informed, the control room was alerted, and\nemergency procedures were quickly implemented.\nWHAT WENT WRONG:\nPI: Right leg open fracture of staff during the connection operation, while lifting a 6-inch pipe and a 2-inch pipe,\nboth of which had previously been tied together with ropes on the 18th August 2025.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nAll work performed requires a dedicated method statement/JHA. The JHA and PTW are updated for all job\napplicants. Improve the behaviour of the authorities responsible for stopping work at all subcontractors. Review the\nmanagement of the contract.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Tools, Equipment, Materials and Products: Improper use/position of tools/equipment/\nmaterials/products\nPEOPLE (ACTS): Inattention/Lack of Awareness: Improper decision making or lack of judgment\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\nPROCESS (CONDITIONS): Organizational: Inadequate supervision\n7\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "stored energy",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "open fracture",
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Work authorization",
+      "evidence": [
+        "PI: Right leg open fracture of staff during the connection operation, while lifting a 6-inch pipe and a 2-inch pipe,\nboth of which had previously been tied together with ropes on the 18th August 2025.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "stored energy",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "open fracture",
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Work authorization",
+      "evidence": [
+        "PI: Right leg open fracture of staff during the connection operation, while lifting a 6-inch pipe and a 2-inch pipe,\nboth of which had previously been tied together with ropes on the 18th August 2025.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 12,
+      "sif_level": "HIGH",
+      "sif_reasons": [
+        "Primary LSR: Line of fire (+2)",
+        "Secondary LSR: Work authorization (+1)",
+        "Hazard: stored energy (+3)",
+        "Potential consequence: open fracture (+4)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_3",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 19 Jan 2025\nCOUNTRY: Gabon\nFUNCTION: Construction\nCAUSE: Explosion, fire or burns\nACTIVITY: Maintenance, inspection, testing\nPRIMARY LIFE-SAVING RULE: Work authorization\nSECONARY LIFE-SAVING RULE: Bypassing safety controls\nNARRATIVE:\nOn January 19, 2025, during restart attempts of the HP-A Gas Compressor following corrective maintenance,\nan unusually loud noise was heard from the exhaust. Seconds later, the fire alarm was triggered, and it was\nobserved that the exhaust structure had fallen off. Technicians in the vicinity immediately pressed the compressor’s\nemergency stop button and evacuated the facility. Simultaneously, the emergency response team was activated, and\nthe on-scene commander initiated a full facility shutdown using a manual call point near the compressor building.\nOnce the source of the loud noise was confirmed to be the HP-A compressor, with the exhaust lying on the ground,\nthe area was cordoned off, and an investigation was launched. The compressor was manually shut down, and the\nESD-1 emergency stop was activated.\nWHAT WENT WRONG:\nDuring the starting of gas lift compressor (HP-A), the exhaust pipe of the engine driving the reciprocating\ncompressor broke and fell off after several attempts to start it, subsequently activating the fire alarm.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nThe crew was not very familiar with the model of engine and didn't know how to react after 1 or 2 attempts to\nrestart.\nThe operating manual was in English not fully understood by the maintenance team.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Deviation unintentional (by individual or group)\nPEOPLE (ACTS): Use of Protective Methods: Failure to warn of hazard\nPEOPLE (ACTS): Inattention/Lack of Awareness: Improper decision making or lack of judgment\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n8\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE",
+    "raw_extraction": {
+      "activity": "Maintenance, inspection, testing",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper decision making",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Work authorization",
+      "secondary_lsr": "Bypassing safety controls",
+      "evidence": [
+        "During the starting of gas lift compressor (HP-A), the exhaust pipe of the engine driving the reciprocating\ncompressor broke and fell off after several attempts to start it, subsequently activating the fire alarm.",
+        "improper decision making",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Maintenance, inspection, testing",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper decision making",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Work authorization",
+      "secondary_lsr": "Bypassing safety controls",
+      "evidence": [
+        "During the starting of gas lift compressor (HP-A), the exhaust pipe of the engine driving the reciprocating\ncompressor broke and fell off after several attempts to start it, subsequently activating the fire alarm.",
+        "improper decision making",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 6,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Work authorization (+1)",
+        "Hazard: dropped object (+3)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_4",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 25 Mar 2025\nCOUNTRY: Ghana\nFUNCTION: Unspecified\nCAUSE: Dropped objects\nACTIVITY: Office, warehouse, accommodation, catering\nPRIMARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nDuring a heavy rainstorm, two aluminium composite panels (component of the external cladding material for the\nOffice building) dislodged and dropped. The two (2) panels, each weighing 9.8kgs and measuring 1.11x1.49ms,\ndropped from about a height of 22.35 meters. The fallen panels were found Infront of the South Wing Power room,\nand the affected area was promptly cordoned off to prevent further hazards. Additionally, multiple panels were\nobserved hanging loosely, posing a potential safety risk to occupants and visitors.\nWHAT WENT WRONG:\n1. Aluminium composite panels not airtight. - Previous investigations revealed that no consideration was given\nto the potential for panels falling during design and installation. Furthermore, subsequent structural integrity\nassessments did not clearly establish the mode of failure and effective mitigation measures to prevent recurrence.\nAdditionally, in cases where potentially falling aluminium composite panels have been reported, remedial actions to\nremove and reinstall such panels are not promptly executed, despite the high potential impact of a dropped panel.\n2. Corrective action process not effectively implemented. - There has been recurring near misses involving dropped\nAluminium Composite Panels in 2016, 2017, 2018, and 2024. However, corrective actions, such as implementing\nmonthly and quarterly drop inspections, have not been sustained.\nFurthermore, planned preventive maintenance and other assurance activities that were instituted have not been\nconsistently followed and remain areas requiring improvement. For instance, the annual integrity assessment for\n2023 and 2024 were not conducted as planned.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n1. Conduct an integrity inspection and assessment of the external of the entire building to identify any areas of loose\ncladding and fix them immediately to prevent any potential recurrence of the incident in the short term.\n2. Re-institute the conduct of the annual inspection programme of the entire exterior of the building's facade to\nidentify any areas of loose cladding and fix them immediately to prevent any potential dropped objects.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Protective Methods: Equipment or materials not secured\nPROCESS (CONDITIONS): Tools, Equipment, Materials and Products: Inadequate design/specification/management\nof change\nPROCESS (CONDITIONS): Tools, Equipment, Materials and Products: Inadequate maintenance/inspection/testing\nPROCESS (CONDITIONS): Work Place Hazards: Storms or acts of nature\nPROCESS (CONDITIONS): Organizational: Poor leadership/organizational culture\n9\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE",
+    "raw_extraction": {
+      "activity": "Office, warehouse, accommodation, catering",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "storms or acts of nature",
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": null,
+      "evidence": [
+        "1. Aluminium composite panels not airtight. - Previous investigations revealed that no consideration was given\nto the potential for panels falling during design and installation. Furthermore, subsequent structural integrity\nassessments did not clearly establish the mode of failure and effective mitigation measures to prevent recurrence.\nAdditionally, in cases where potentially falling aluminium composite panels have been reported, remedial actions to\nremove and reinstall such panels are not promptly executed, despite the high potential impact of a dropped panel.\n2. Corrective action process not effectively implemented. - There has been recurring near misses involving dropped\nAluminium Composite Panels in 2016, 2017, 2018, and 2024. However, corrective actions, such as implementing\nmonthly and quarterly drop inspections, have not been sustained.\nFurthermore, planned preventive maintenance and other assurance activities that were instituted have not been\nconsistently followed and remain areas requiring improvement. For instance, the annual integrity assessment for\n2023 and 2024 were not conducted as planned.",
+        "improper position",
+        "storms or acts of nature"
+      ],
+      "confidence": 0.75
+    },
+    "normalized_extraction": {
+      "activity": "Office, warehouse, accommodation, catering",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "storms or acts of nature",
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": null,
+      "evidence": [
+        "1. Aluminium composite panels not airtight. - Previous investigations revealed that no consideration was given\nto the potential for panels falling during design and installation. Furthermore, subsequent structural integrity\nassessments did not clearly establish the mode of failure and effective mitigation measures to prevent recurrence.\nAdditionally, in cases where potentially falling aluminium composite panels have been reported, remedial actions to\nremove and reinstall such panels are not promptly executed, despite the high potential impact of a dropped panel.\n2. Corrective action process not effectively implemented. - There has been recurring near misses involving dropped\nAluminium Composite Panels in 2016, 2017, 2018, and 2024. However, corrective actions, such as implementing\nmonthly and quarterly drop inspections, have not been sustained.\nFurthermore, planned preventive maintenance and other assurance activities that were instituted have not been\nconsistently followed and remain areas requiring improvement. For instance, the annual integrity assessment for\n2023 and 2024 were not conducted as planned.",
+        "improper position",
+        "storms or acts of nature"
+      ],
+      "confidence": 0.75
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 5,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Line of fire (+2)",
+        "Hazard: dropped object (+3)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_5",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 26 Jul 2025\nCOUNTRY: Nigeria\nFUNCTION: Drilling\nCAUSE: Struck by (not dropped object)\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nAt about 02:21hrs, while rig crew was picking 4” drill pipe, a single drill pipe was picked from Catwalk to the rig\nfloor with Air winch tugger. The IP removed thread protector from the single pipe while another floorman attempted\nto guide the pipe into the mouse hole. The pipe missed the mouse hole, hit the rig floor and also hit the IP on his\nright ear and shoulder. IP was move to Clinic.\nWHAT WENT WRONG:\n1. Lowering without signal – The air tugger operator lowered the pipe without receiving a stop/lower command, due\nto absence of a dedicated signaller and reliance on previous experience racking 11 stands without one.\n2. Obstructed line of sight – The operator was blindsided by the position of already-racked pipes, limiting visibility of\nthe mousehole area.\n3. IP in fall zone – The injured person was inadvertently in the trajectory of the falling pipe after removing the thread\nprotector.\n4. Incoherent communication – The floormen recognized the pipe had missed the mousehole but were only able to\nshout warnings, which were not effectively received\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n1. Updating and endorsing the racking SOP.\n2. Assigning a dedicated signaller for all pipe-handling operations.\n3. Adjusting derrick camera positioning to restore clear line of sight.\n4. Reinforcing communication protocols and hazard-zone controls.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Tools, Equipment, Materials and Products: Improper use/position of tools/equipment/\nmaterials/products\nPEOPLE (ACTS): Use of Protective Methods: Failure to warn of hazard\nPROCESS (CONDITIONS): Organizational: Inadequate communication\n10\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate communication",
+      "barrier_failure": "inadequate communication",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "1. Lowering without signal – The air tugger operator lowered the pipe without receiving a stop/lower command, due\nto absence of a dedicated signaller and reliance on previous experience racking 11 stands without one.\n2. Obstructed line of sight – The operator was blindsided by the position of already-racked pipes, limiting visibility of\nthe mousehole area.\n3. IP in fall zone – The injured person was inadvertently in the trajectory of the falling pipe after removing the thread\nprotector.\n4. Incoherent communication – The floormen recognized the pipe had missed the mousehole but were only able to\nshout warnings, which were not effectively received",
+        "improper position",
+        "inadequate communication"
+      ],
+      "confidence": 0.8
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate communication",
+      "barrier_failure": "inadequate communication",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "1. Lowering without signal – The air tugger operator lowered the pipe without receiving a stop/lower command, due\nto absence of a dedicated signaller and reliance on previous experience racking 11 stands without one.\n2. Obstructed line of sight – The operator was blindsided by the position of already-racked pipes, limiting visibility of\nthe mousehole area.\n3. IP in fall zone – The injured person was inadvertently in the trajectory of the falling pipe after removing the thread\nprotector.\n4. Incoherent communication – The floormen recognized the pipe had missed the mousehole but were only able to\nshout warnings, which were not effectively received",
+        "improper position",
+        "inadequate communication"
+      ],
+      "confidence": 0.8
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 6,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_6",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 08 Oct 2025\nCOUNTRY: Nigeria\nFUNCTION: Production\nCAUSE: Struck by (not dropped object)\nACTIVITY: Transport - Land\nPRIMARY LIFE-SAVING RULE: Driving\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nAt about 10:30 hours, a company-owned light vehicle in a security convoy travelling veered off the road and collided\nwith an electric pole. The driver and accompanying customer were safely evacuated and transported to the Clinic for\nappropriate medical evaluation / attention.\nWHAT WENT WRONG:\n1. Driver lost situational awareness and became mentally disengaged (“lost in thought”).\n2. Faulty vehicle radio created a quiet environment with no auditory stimulation to help maintain alertness.\n3. Vehicle drifted off the road, and driver reaction was delayed.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n1. Effective vehicle safety systems, such as airbags, seatbelts and prompt emergence response minimizes injury\nseverity.\n2. Driver to always drive maintaining situational awareness.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Inattention/Lack of Awareness: Lack of attention/distracted by other concerns/stress",
+    "raw_extraction": {
+      "activity": "Transport - Land",
+      "hazard": "vehicle/road hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": null,
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Driving",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "1. Driver lost situational awareness and became mentally disengaged (“lost in thought”).\n2. Faulty vehicle radio created a quiet environment with no auditory stimulation to help maintain alertness.\n3. Vehicle drifted off the road, and driver reaction was delayed.",
+        "improper position"
+      ],
+      "confidence": 0.75
+    },
+    "normalized_extraction": {
+      "activity": "Transport - Land",
+      "hazard": "vehicle/road hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": null,
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Driving",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "1. Driver lost situational awareness and became mentally disengaged (“lost in thought”).\n2. Faulty vehicle radio created a quiet environment with no auditory stimulation to help maintain alertness.\n3. Vehicle drifted off the road, and driver reaction was delayed.",
+        "improper position"
+      ],
+      "confidence": 0.75
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 5,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Driving (+1)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: vehicle/road hazard (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_7",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 03 Jun 2025\nCOUNTRY: Nigeria\nFUNCTION: Construction\nCAUSE: Exposure electrical\nACTIVITY: Excavation, trenching, ground disturbance\nPRIMARY LIFE-SAVING RULE: Energy isolation\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nOn 3rd June 2025, at about 2:15pm, during a test digging on a 6\" test line right of way, the excavator bucket made\ncontact with a buried 11KVA composite electrical cable. The incident resulted in a dent/superficial cut on the cable.\nWHAT WENT WRONG:\n1. The excavator was used to accelerate exposure of an underground pipeline despite the presence of multiple\nburied utilities.\n2. The as-built survey lacked sufficient detail, particularly regarding test line depth and exact routing, leading to\nmisinterpretation of subsurface conditions.\n11\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE\n3. During test digging, the excavator bucket contacted a buried 11 kVA composite electrical cable, causing a dent\nand minor cut.\n4. Excavator use in close proximity to unidentified/poorly defined underground assets introduced a line-strike\nhazard.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n1. Mechanical excavation (excavators) must not be used near unknown or insufficiently verified buried utilities.\n2. Probing results identifying multiple underground facilities must trigger manual excavation only.\n3. As-built drawings must be accurate, up-to-date, and detailed, especially regarding depth and horizontal spacing.\n4. When indications are unclear, stop work and escalate for engineering verification.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Tools, Equipment, Materials and Products: Servicing of energized equipment/inadequate\nenergy isolation\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\nPROCESS (CONDITIONS): Organizational: Inadequate communication",
+    "raw_extraction": {
+      "activity": "Excavation, trenching, ground disturbance",
+      "hazard": "electrical energy",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Energy isolation",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "1. The excavator was used to accelerate exposure of an underground pipeline despite the presence of multiple\nburied utilities.\n2. The as-built survey lacked sufficient detail, particularly regarding test line depth and exact routing, leading to\nmisinterpretation of subsurface conditions.\n11\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE\n3. During test digging, the excavator bucket contacted a buried 11 kVA composite electrical cable, causing a dent\nand minor cut.\n4. Excavator use in close proximity to unidentified/poorly defined underground assets introduced a line-strike\nhazard.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Excavation, trenching, ground disturbance",
+      "hazard": "electrical energy",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Energy isolation",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "1. The excavator was used to accelerate exposure of an underground pipeline despite the presence of multiple\nburied utilities.\n2. The as-built survey lacked sufficient detail, particularly regarding test line depth and exact routing, leading to\nmisinterpretation of subsurface conditions.\n11\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA ONSHORE\n3. During test digging, the excavator bucket contacted a buried 11 kVA composite electrical cable, causing a dent\nand minor cut.\n4. Excavator use in close proximity to unidentified/poorly defined underground assets introduced a line-strike\nhazard.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 9,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Energy isolation (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: electrical energy (+3)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_8",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 17 Oct 2025\nCOUNTRY: Tunisia\nFUNCTION: Production\nCAUSE: Pressure release\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nRelease of propane from a temp. storage tank.\nWHAT WENT WRONG:\nForklift hit tank while unloading from flatbed truck.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nEnsure proper lifting procedures are followed, develop a topping up procedure for propane refrigerant, enhance site\nHSSE leadership.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPROCESS (CONDITIONS): Organizational: Inadequate work standards/procedures\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n12\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA OFFSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Forklift hit tank while unloading from flatbed truck.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.8
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Forklift hit tank while unloading from flatbed truck.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.8
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 6,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_9",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 18 Feb 2025\nCOUNTRY: Congo\nFUNCTION: Production\nCAUSE: Dropped objects\nACTIVITY: Production operations\nPRIMARY LIFE-SAVING RULE: Line of fire\nSECONARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nA 9 kg metal plate detached from the conveyor railway and fell approximately 6.5–10 m onto the deck below.\nNo personnel were struck; however, dropped-object energy indicated fatality potential.\nThe plate was originally installed as a dropped-object prevention measure. Over time it deteriorated and was\ndisplaced due to a misaligned and stretched conveyor belt, which pushed the plate out of position.\nOperations on the starboard conveyor were stopped, the area below was barricaded, and a rope-access inspection\nof similar installations was initiated.\nWHAT WENT WRONG:\n• Dropped-object protection plate was not adequately inspected or maintained over time.\n• Conveyor belt was poorly fitted/misaligned, creating continuous mechanical load on the plate.\n• No inspection programme identified deterioration or displacement risk.Safety-critical equipment (secondary\nretention / guarding) was not recognised as such and therefore not verified.\n• Asset integrity management and preventative maintenance were ineffective.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n• Treat dropped-object prevention devices (guards, covers, retention plates) as safety-critical equipment requiring\nroutine inspection.\n• Implement a formal inspection and maintenance programme for conveyors and associated guards.\n• Correct belt alignment and tension to prevent abnormal loads on structures.\n• Periodically survey elevated plant for dropped-object hazards (e.g., DROPS inspections/rope access).\n• Ensure barricading/red-zone control beneath overhead equipment during operations where deterioration is\npossible.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Protective Methods: Equipment or materials not secured\nPROCESS (CONDITIONS): Protective Systems: Inadequate/defective guards or protective barriers\nPROCESS (CONDITIONS): Tools, Equipment, Materials and Products: Inadequate maintenance/inspection/testing\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n13\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA OFFSHORE",
+    "raw_extraction": {
+      "activity": "Production operations",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "fatality",
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Work authorization",
+      "evidence": [
+        "• Dropped-object protection plate was not adequately inspected or maintained over time.\n• Conveyor belt was poorly fitted/misaligned, creating continuous mechanical load on the plate.\n• No inspection programme identified deterioration or displacement risk.Safety-critical equipment (secondary\nretention / guarding) was not recognised as such and therefore not verified.\n• Asset integrity management and preventative maintenance were ineffective.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "normalized_extraction": {
+      "activity": "Production operations",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "fatality",
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Work authorization",
+      "evidence": [
+        "• Dropped-object protection plate was not adequately inspected or maintained over time.\n• Conveyor belt was poorly fitted/misaligned, creating continuous mechanical load on the plate.\n• No inspection programme identified deterioration or displacement risk.Safety-critical equipment (secondary\nretention / guarding) was not recognised as such and therefore not verified.\n• Asset integrity management and preventative maintenance were ineffective.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 13,
+      "sif_level": "HIGH",
+      "sif_reasons": [
+        "Primary LSR: Line of fire (+2)",
+        "Secondary LSR: Work authorization (+1)",
+        "Hazard: dropped object (+3)",
+        "Potential consequence: fatality (+5)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_10",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 23 Mar 2025\nCOUNTRY: Equatorial Guinea\nFUNCTION: Production\nCAUSE: Falls from height\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Line of fire\nSECONARY LIFE-SAVING RULE: Safe mechanical lifting\nNARRATIVE:\nAt approximately 06:30, lifting operations were being conducted to move spools from the main deck to the cellar/\nsub-cellar deck.\nBecause no direct lifting path existed, the crew chose to lift the load through a slickline hatch, which constituted\na complex lift and was not covered by the approved PTW. The crane operator had no line of sight and was\ncommunicating by radio only.\nDuring lifting, the hook snagged the hatch plate. The rigger, who was standing on the hatch cover to guide the load,\nattempted to stop the lift. The plate dislodged and the rigger fell approximately 6.5 m to the deck below.\nThe injured person was medevaced with serious injuries. The event had clear fatality potential.\nWHAT WENT WRONG:\n• A complex lifting operation was performed under a PTW that only authorised a standard lift.\n• Work scope changed without risk assessment or lift planning.\n• Crane operator had no line of sight and communications were unreliable.\n• Rigger stood on the hatch cover to guide the load, placing himself in a fall hazard zone.\n• The lift was coordinated using voice/radio in a noisy area without clear signalling control.\n• Rigger’s certification had expired and supervision was inadequate.\n• Unsafe practice had become normalised due to prior similar lifts performed without incident.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n• Complex lifts require a specific lift plan, risk assessment, and supervision.\n• Never route loads through hatches/openings without engineered lifting arrangements.\n• Maintain line of sight or use a designated trained signalman with agreed communication protocol.\n• Personnel must never stand on removable covers or under suspended loads.\n• Verify competency and certification of riggers and lifting personnel.\n• Stop work when lift conditions differ from the approved plan.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPROCESS (CONDITIONS): Work Place Hazards: Congestion, clutter or restricted motion\nPROCESS (CONDITIONS): Work Place Hazards: Inadequate surfaces, floors, walkways or roads\nPROCESS (CONDITIONS): Organizational: Inadequate training/competence\nPROCESS (CONDITIONS): Organizational: Inadequate work standards/procedures\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\nPROCESS (CONDITIONS): Organizational: Inadequate communication\nPROCESS (CONDITIONS): Organizational: Inadequate supervision\n14\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA OFFSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate surfaces, floors, walkways or roads",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "fatality",
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Safe mechanical lifting",
+      "evidence": [
+        "• A complex lifting operation was performed under a PTW that only authorised a standard lift.\n• Work scope changed without risk assessment or lift planning.\n• Crane operator had no line of sight and communications were unreliable.\n• Rigger stood on the hatch cover to guide the load, placing himself in a fall hazard zone.\n• The lift was coordinated using voice/radio in a noisy area without clear signalling control.\n• Rigger’s certification had expired and supervision was inadequate.\n• Unsafe practice had become normalised due to prior similar lifts performed without incident.",
+        "improper position",
+        "inadequate surfaces, floors, walkways or roads",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate surfaces, floors, walkways or roads",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": "fatality",
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Safe mechanical lifting",
+      "evidence": [
+        "• A complex lifting operation was performed under a PTW that only authorised a standard lift.\n• Work scope changed without risk assessment or lift planning.\n• Crane operator had no line of sight and communications were unreliable.\n• Rigger stood on the hatch cover to guide the load, placing himself in a fall hazard zone.\n• The lift was coordinated using voice/radio in a noisy area without clear signalling control.\n• Rigger’s certification had expired and supervision was inadequate.\n• Unsafe practice had become normalised due to prior similar lifts performed without incident.",
+        "improper position",
+        "inadequate surfaces, floors, walkways or roads",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.9
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 13,
+      "sif_level": "HIGH",
+      "sif_reasons": [
+        "Primary LSR: Line of fire (+2)",
+        "Secondary LSR: Safe mechanical lifting (+2)",
+        "Hazard: lifting hazard (+2)",
+        "Potential consequence: fatality (+5)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_11",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 02 Dec 2025\nCOUNTRY: Gabon\nFUNCTION: Production\nCAUSE: Struck by (not dropped object)\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Line of fire\nSECONARY LIFE-SAVING RULE: Safe mechanical lifting\nNARRATIVE:\nWhile parking the starboard (STBD) crane following routine lifting operations, the crane boom was brought down\ninto the boom rest abruptly rather than in a controlled manner. This sudden placement generated an unexpected\nimpact load on the crane structure, producing a loud bang that was heard in the vicinity of the crane pedestal and\nsurrounding areas.\nThe abrupt motion and resulting impact load may have introduced a shock event into the crane’s hydraulic or\nelectrical systems. A process shutdown occurred minutes after this impact, and although the causal link has not yet\nbeen fully established, the timing suggests the crane event may have contributed to or triggered the shutdown.\nWHAT WENT WRONG:\n• Crane boom impacted boom rest heavily.\n• Crane incorrectly lowered at the boom rest.\n• Lack of experience of Crane Operator.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n1. Mandatory contractor equipment specific training familiarization to be performed onboard and documented with\nnew crane operators.\n2. Selection of candidates for temporary cover to be formalized with the minimum experience requirement for\ncontractor operations\n3. New crane operators to be mobilized in advance to come offshore and undergo supervision monitored by the\nfacility crane operator for a defined supervision period.\n4. Non-destructive testing to be performed at the crane's boom & cradle by 3rd party.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPROCESS (CONDITIONS): Organizational: Inadequate training/competence\nPROCESS (CONDITIONS): Organizational: Inadequate supervision\n15\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA OFFSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper lifting",
+      "unsafe_condition": "inadequate supervision",
+      "barrier_failure": "inadequate supervision",
+      "potential_consequence": null,
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Safe mechanical lifting",
+      "evidence": [
+        "• Crane boom impacted boom rest heavily.\n• Crane incorrectly lowered at the boom rest.\n• Lack of experience of Crane Operator.",
+        "improper lifting",
+        "inadequate supervision"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper lifting",
+      "unsafe_condition": "inadequate supervision",
+      "barrier_failure": "inadequate supervision",
+      "potential_consequence": null,
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Safe mechanical lifting",
+      "evidence": [
+        "• Crane boom impacted boom rest heavily.\n• Crane incorrectly lowered at the boom rest.\n• Lack of experience of Crane Operator.",
+        "improper lifting",
+        "inadequate supervision"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 8,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Line of fire (+2)",
+        "Secondary LSR: Safe mechanical lifting (+2)",
+        "Hazard: lifting hazard (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_12",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 18 Mar 2025\nCOUNTRY: Mauritania\nFUNCTION: Production\nCAUSE: Pressure release\nACTIVITY: Maintenance, inspection, testing\nPRIMARY LIFE-SAVING RULE: Energy isolation\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nContractor carrying out repairs on the Scale Inhibitor Injection system, the system was understood to have been\ndepressurised. As the contractor started to release an end cap, the cap was projected downwards under pressure.\nThe cap went directly downwards into a section of plant close to a walkway. This could have had potential to impact\npersonnel.\nWHAT WENT WRONG:\nFailure to properly depressurise closed circuit.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nLearning 1. The process for managing valve movements during a leak test in response to a leak was not robust. The\nleak testing procedure was not explicit about how to manage such a situation. Also no bridging document between\nprocedure and company Control of Work procedure.\nLearning 2. Site team did not verify that the leak test system envelope was fully depressurised. Task fatigue and\nnormalisation of the risk were identified resulting in the Permit Authority deciding to de-prioritise some oversight of\nthe task.\nLearning 3. The potential hazard created using 6Mo tubing and 316 stainless steel fittings at tubing geometries\noutside of manufacturer recommendation was not understood. Knowing this may have influenced decisions around\ncontrols such as exclusion zones and proving zero energy at the point of system being worked on.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Tools, Equipment, Materials and Products: Servicing of energized equipment/inadequate\nenergy isolation\nPROCESS (CONDITIONS): Organizational: Inadequate work standards/procedures\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n16\nSafety performance indicators – 2025 data: High potential event reports\nAFRICA OFFSHORE",
+    "raw_extraction": {
+      "activity": "Maintenance, inspection, testing",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Energy isolation",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Failure to properly depressurise closed circuit.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.8
+    },
+    "normalized_extraction": {
+      "activity": "Maintenance, inspection, testing",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Energy isolation",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Failure to properly depressurise closed circuit.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.8
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 6,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Energy isolation (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_13",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 18 Nov 2025\nCOUNTRY: Namibia\nFUNCTION: Drilling\nCAUSE: Dropped objects\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nFlex Joint strikes handrail creating 2 Dropped Objects. During the removal of the Flex Joint from the Riser Feeding\nMachine (RFM) using the starboard crane, the aft sling of the Flex Joint became hung up on the RFM bucket. As the\nlift continued, the sling suddenly released, causing the Flex Joint to swing unexpectedly.\nThe uncontrolled movement resulted in the Flex Joint striking and damaging the RFM track and the associated\nemergency-stop device. The Flex Joint then continued its swing path until coming to rest against the starboard-side\nhandrail.\nThe impact dislodged two sections of the handrail, weighing 2.4 kg and 4.6 kg, corresponding to 377 Joules and 722\nJoules of potential energy respectively. Both handrail sections fell approximately 16 metres to the Riser Deck below.\nWHAT WENT WRONG:\nUncontrolled movement - swing.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n• Accumulate incident information and ensure proper cause analysis and mitigating measures.\n• Set expectations for supervisor 1 to 1 conversations According to: HSE Improvement plan.\n• Computer-based training on lift planning.\n• Onshore crane and lifting discipline lead and mechanical lifting focal point to discuss systemic standardized\nmanagement of lift plans on vessel.\n• Onshore resources to audit the effectiveness of systematic approach to management of lift plan.\n• Update procedures for laying out flex joint.\n• Ensure OEM compliant cameras for starboard crane are installed.\n• The material handling plan for the vessel will need to be MOC from original design - action.\n• Inspection and testing required on damaged RFM structure.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPROCESS (CONDITIONS): Organizational: Inadequate training/competence\nPROCESS (CONDITIONS): Organizational: Inadequate work standards/procedures\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n17\nSafety performance indicators – 2025 data: High potential event reports\nASIA/AUSTRALASIA ONSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Uncontrolled movement - swing.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "dropped object",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Uncontrolled movement - swing.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 9,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: dropped object (+3)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_14",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 03 Dec 2025\nCOUNTRY: Australia\nFUNCTION: Drilling\nCAUSE: Dropped objects\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nOperator observed a concrete block on the tray of a flatbed truck and attempted to pick it up with the Front-end\nLoader tynes (pallet forks). The operator misjudged the fork tyne pockets of the pallet the concrete block was sitting\non and inadvertently pushed the concrete block off the side of the flatbed truck.\nThe concrete block weighed ~1.3 tonne and fell ~1.4m before rolling onto its side and coming to rest on the ground\nnear a container on the opposite side of the flatbed truck.\nWHAT WENT WRONG:\nEquipment Operator did not check-in upon arrival. There was no indication of how check-in should be completed or\nvisible signage indicating such.\nThe training program for heavy equipment operation does not train individuals on barricading and area security.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nIncorporate the expectation of Drill Centres to ensure visible check-in signage is in place during ongoing operations\nso arrivals are aware of who to contact.\nUpdate the Verification checklist for Heavy Equipment Loading to incorporate the satisfactory acknowledgement\nand completion of Barricading Control of Work Procedure and Mobile Plant used for Load Shifting Control of Work\nProcedure. Each of which addresses specific barricading parameters and understanding for maintained consistency\nin mobile equipment operations.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPROCESS (CONDITIONS): Protective Systems: Inadequate/defective guards or protective barriers\nPROCESS (CONDITIONS): Tools, Equipment, Materials and Products: Inadequate design/specification/management\nof change\nPROCESS (CONDITIONS): Organizational: Inadequate training/competence\nPROCESS (CONDITIONS): Organizational: Inadequate supervision\n18\nSafety performance indicators – 2025 data: High potential event reports\nASIA/AUSTRALASIA ONSHORE",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate supervision",
+      "barrier_failure": "inadequate supervision",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Equipment Operator did not check-in upon arrival. There was no indication of how check-in should be completed or\nvisible signage indicating such.\nThe training program for heavy equipment operation does not train individuals on barricading and area security.",
+        "improper position",
+        "inadequate supervision"
+      ],
+      "confidence": 0.8
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate supervision",
+      "barrier_failure": "inadequate supervision",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Equipment Operator did not check-in upon arrival. There was no indication of how check-in should be completed or\nvisible signage indicating such.\nThe training program for heavy equipment operation does not train individuals on barricading and area security.",
+        "improper position",
+        "inadequate supervision"
+      ],
+      "confidence": 0.8
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 6,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_15",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 17 Apr 2025\nCOUNTRY: Australia\nFUNCTION: Production\nCAUSE: Dropped objects\nACTIVITY: Office, warehouse, accommodation, catering\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nDuring pallet racking activities in the warehouse, a forklift was in the process of lifting a pallet to the third shelf. The\nload backrest of the forklift inadvertently contacted another pallet directly above (load approximately 240kg) stored\non the fourth shelf which dislodged and fell approximately 5.6m to grade. No personnel were injured. There was one\nnearby person 7 meters away.\nWHAT WENT WRONG:\nIncompatibility between the forklift (material handling equipment) in use and the racking system configuration\ninstalled. The distance between shelf three and shelf four was 1350mm. The height of the forklift backrest was\n1250mm. This left 100mm between the two and when manoeuvring the load into position resulted in the load above\nbeing lifted inadvertently. The higher you lift the forklift mast, the more important adequate clearances become.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nEquipment Compatibility Must Be Verified - Ensure all material handling equipment and load types are assessed for\ncompatibility with racking systems before use or when managing change. This includes verifying dimensions and\nmanoeuvrability.\nCritical Importance of Adequate Clearance - Maintain safe clearance margins between shelving levels, loads and\nthe material handling equipment, especially when operating at height.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPROCESS (CONDITIONS): Tools, Equipment, Materials and Products: Inadequate design/specification/management\nof change\nPROCESS (CONDITIONS): Work Place Hazards: Congestion, clutter or restricted motion\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\n19\nSafety performance indicators – 2025 data: High potential event reports\nASIA/AUSTRALASIA ONSHORE",
+    "raw_extraction": {
+      "activity": "Office, warehouse, accommodation, catering",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Incompatibility between the forklift (material handling equipment) in use and the racking system configuration\ninstalled. The distance between shelf three and shelf four was 1350mm. The height of the forklift backrest was\n1250mm. This left 100mm between the two and when manoeuvring the load into position resulted in the load above\nbeing lifted inadvertently. The higher you lift the forklift mast, the more important adequate clearances become.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Office, warehouse, accommodation, catering",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Incompatibility between the forklift (material handling equipment) in use and the racking system configuration\ninstalled. The distance between shelf three and shelf four was 1350mm. The height of the forklift backrest was\n1250mm. This left 100mm between the two and when manoeuvring the load into position resulted in the load above\nbeing lifted inadvertently. The higher you lift the forklift mast, the more important adequate clearances become.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 8,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: lifting hazard (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_16",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 05 Sep 2025\nCOUNTRY: Australia\nFUNCTION: Production\nCAUSE: Pressure release\nACTIVITY: Maintenance, inspection, testing\nPRIMARY LIFE-SAVING RULE: Energy isolation\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nIP1 observed visible bulging of a drain hose and proceeded to disconnect it. Although the associated compressor\nhad been isolated, the hose remained connected to the main drainage manifold, which was linked to 24\ncompressors.\nThe hose remained pressurized, and upon disconnection it struck the IP1 on the left hand and lower leg, and\nsubsequently impacting IP2’s hand as they attempted to assist. As a result, IP1 and IP2 were injured.\nWHAT WENT WRONG:\nThe task continued despite incomplete isolation: only the compressor was isolated while the hose remained\nconnected to a pressurized shared manifold, the hose’s visible bulging signalled residual pressure, and the plan\nwas informally changed without a full risk assessment.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nRecognize and respond to deviations, verify isolation across the entire system, and avoid informal adaptations -\npromote a disciplined “Stop and Verify” culture that empowers pausing and reassessment when conditions change.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Tools, Equipment, Materials and Products: Servicing of energized equipment/inadequate\nenergy isolation\nPEOPLE (ACTS): Inattention/Lack of Awareness: Improper decision making or lack of judgment\nPROCESS (CONDITIONS): Tools, Equipment, Materials and Products: Inadequate design/specification/management\nof change\nPROCESS (CONDITIONS): Organizational: Inadequate work standards/procedures\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment",
+    "raw_extraction": {
+      "activity": "Maintenance, inspection, testing",
+      "hazard": "stored energy",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Energy isolation",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "The task continued despite incomplete isolation: only the compressor was isolated while the hose remained\nconnected to a pressurized shared manifold, the hose’s visible bulging signalled residual pressure, and the plan\nwas informally changed without a full risk assessment.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Maintenance, inspection, testing",
+      "hazard": "stored energy",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Energy isolation",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "The task continued despite incomplete isolation: only the compressor was isolated while the hose remained\nconnected to a pressurized shared manifold, the hose’s visible bulging signalled residual pressure, and the plan\nwas informally changed without a full risk assessment.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 9,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Energy isolation (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: stored energy (+3)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_17",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 30 Dec 2025\nCOUNTRY: Australia\nFUNCTION: Unspecified\nCAUSE: Struck by (not dropped object)\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Line of fire\nSECONARY LIFE-SAVING RULE: Safe mechanical lifting\nNARRATIVE:\nWhilst departing the north berth of the supply base wharf, the contractor inspection maintenance repair vessel\nbegan moving starboard and aft whilst the forward fender was being lifted and recovered using the vessel’s crane.\n20\nSafety performance indicators – 2025 data: High potential event reports\nASIA/AUSTRALASIA ONSHORE\nWHAT WENT WRONG:\nThe suspended fender was lifted in close proximity to, and potentially above, two workers positioned in an elevated\nwork platform on the southern berth. The workers were performing works over the side in the elevated work\nplatform as part of the wharf refurbishment project.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\n• Confirm stakeholders are aware of simulations operations occurring within the area.\n• Verify the spotter/crane operator has adequate line of sight to confirm the lift path is clear.\n• Maintain communication among stakeholders when multiple activities occur within the same operating area.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPROCESS (CONDITIONS): Organizational: Inadequate hazard identification or risk assessment\nPROCESS (CONDITIONS): Organizational: Inadequate communication",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Safe mechanical lifting",
+      "evidence": [
+        "The suspended fender was lifted in close proximity to, and potentially above, two workers positioned in an elevated\nwork platform on the southern berth. The workers were performing works over the side in the elevated work\nplatform as part of the wharf refurbishment project.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "inadequate hazard identification or risk assessment",
+      "barrier_failure": "inadequate hazard identification or risk assessment",
+      "potential_consequence": null,
+      "primary_lsr": "Line of fire",
+      "secondary_lsr": "Safe mechanical lifting",
+      "evidence": [
+        "The suspended fender was lifted in close proximity to, and potentially above, two workers positioned in an elevated\nwork platform on the southern berth. The workers were performing works over the side in the elevated work\nplatform as part of the wharf refurbishment project.",
+        "improper position",
+        "inadequate hazard identification or risk assessment"
+      ],
+      "confidence": 0.85
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 8,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Line of fire (+2)",
+        "Secondary LSR: Safe mechanical lifting (+2)",
+        "Hazard: lifting hazard (+2)",
+        "Safety barrier/control failure (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_18",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 14 Jul 2025\nCOUNTRY: India\nFUNCTION: Drilling\nCAUSE: Falls from height\nACTIVITY: Drilling, workover, well operations\nPRIMARY LIFE-SAVING RULE: Working at height\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nA crew member stepped out of a cherry picker while connecting a hydraulic hose to the Annular BOP, lost balance,\nand fell onto the cellar-pit grating. Subsequent hospital evaluation confirmed a left zygomatic bone fracture.\nWHAT WENT WRONG:\nProper access was not planned, leading the worker to step out of the cherry picker without fall protection, bypassing\na critical safety control and exposing him to an unprotected fall hazard.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nWork-at-height tasks must never rely on improvised access; proper platforms and fall-protection systems must\nbe planned and used to eliminate the temptation to step out of equipment and expose workers to unprotected fall\nhazards.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Deviation intentional (by individual or group)\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Use of Protective Methods: Inadequate use of safety systems\nPEOPLE (ACTS): Use of Protective Methods: Disabled or removed guards, warning systems or safety devices\n21\nSafety performance indicators – 2025 data: High potential event reports\nASIA/AUSTRALASIA ONSHORE",
+    "raw_extraction": {
+      "activity": "Drilling, workover, well operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": null,
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Working at height",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Proper access was not planned, leading the worker to step out of the cherry picker without fall protection, bypassing\na critical safety control and exposing him to an unprotected fall hazard.",
+        "improper position"
+      ],
+      "confidence": 0.7
+    },
+    "normalized_extraction": {
+      "activity": "Drilling, workover, well operations",
+      "hazard": null,
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": null,
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Working at height",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Proper access was not planned, leading the worker to step out of the cherry picker without fall protection, bypassing\na critical safety control and exposing him to an unprotected fall hazard.",
+        "improper position"
+      ],
+      "confidence": 0.7
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 2,
+      "sif_level": "LOW",
+      "sif_reasons": [
+        "Secondary LSR: Line of fire (+2)"
+      ]
+    }
+  },
+  {
+    "report_id": "2025sh.pdf_report_19",
+    "source_file": "2025sh.pdf",
+    "source_type": "pdf",
+    "original_report": "DATE: 09 Apr 2025\nCOUNTRY: Indonesia\nFUNCTION: Drilling\nCAUSE: Dropped objects\nACTIVITY: Lifting, crane, rigging, deck operations\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nSECONARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\n2-7/8\" tubing was released from the lifting cap and hit the back of the right shoulder.\nWHAT WENT WRONG:\nFail to secure equipment.\nCORRECTIVE ACTIONS AND RECOMMENDATIONS:\nEnsure the tubing and lifting cap are properly connected.\nCAUSAL FACTORS:\nPEOPLE (ACTS): Following Procedures: Improper position (in the line of fire)\nPEOPLE (ACTS): Following Procedures: Improper lifting or loading\nPEOPLE (ACTS): Use of Tools, Equipment, Materials and Products: Improper use/position of tools/equipment/\nmaterials/products\nPEOPLE (ACTS): Use of Protective Methods: Equipment or materials not secured",
+    "raw_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "equipment or materials not secured",
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Fail to secure equipment.",
+        "improper position",
+        "equipment or materials not secured"
+      ],
+      "confidence": 0.8
+    },
+    "normalized_extraction": {
+      "activity": "Lifting, crane, rigging, deck operations",
+      "hazard": "lifting hazard",
+      "location": null,
+      "unsafe_act": "improper position",
+      "unsafe_condition": "equipment or materials not secured",
+      "barrier_failure": null,
+      "potential_consequence": null,
+      "primary_lsr": "Safe mechanical lifting",
+      "secondary_lsr": "Line of fire",
+      "evidence": [
+        "Fail to secure equipment.",
+        "improper position",
+        "equipment or materials not secured"
+      ],
+      "confidence": 0.8
+    },
+    "validation": {
+      "is_valid": true,
+      "issues": []
+    },
+    "status": "SUCCESS",
+    "sif_classification": {
+      "sif_score": 6,
+      "sif_level": "MEDIUM",
+      "sif_reasons": [
+        "Primary LSR: Safe mechanical lifting (+2)",
+        "Secondary LSR: Line of fire (+2)",
+        "Hazard: lifting hazard (+2)"
+      ]
+    }
+  }
+]

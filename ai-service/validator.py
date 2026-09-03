@@ -1,58 +1,81 @@
-EXPECTED_FIELDS = [
-    "activity",
-    "hazard",
-    "location",
-    "unsafe_act",
-    "unsafe_condition",
-    "barrier_failure",
-    "potential_consequence",
-    "evidence"
-]
-
-
 def validate_result(result):
 
-    validation = {
-        "is_valid": True,
-        "issues": []
-    }
+    issues = []
 
+    required_fields = [
+        "activity",
+        "hazard",
+        "location",
+        "unsafe_act",
+        "unsafe_condition",
+        "barrier_failure",
+        "potential_consequence",
+        "primary_lsr",
+        "secondary_lsr",
+        "evidence",
+        "confidence"
+    ]
 
-    # Check all fields exist
-    for field in EXPECTED_FIELDS:
-
+    # Check fields exist
+    for field in required_fields:
         if field not in result:
+            issues.append(f"Missing field: {field}")
 
-            validation["is_valid"] = False
+    # If fields are missing, stop here
+    if issues:
+        return {
+            "is_valid": False,
+            "issues": issues
+        }
 
-            validation["issues"].append(
-                f"Missing field: {field}"
-            )
+    # --------------------------------------------------
+    # Semantic quality check
+    # --------------------------------------------------
 
+    useful_fields = [
+        "activity",
+        "hazard",
+        "unsafe_act",
+        "unsafe_condition",
+        "barrier_failure",
+        "potential_consequence"
+    ]
 
-    # Check evidence is a list
-    if not isinstance(result.get("evidence"), list):
+    useful_count = sum(
+        1 for field in useful_fields
+        if result.get(field)
+    )
 
-        validation["is_valid"] = False
-
-        validation["issues"].append(
-            "Evidence must be a list"
+    if useful_count == 0:
+        issues.append(
+            "Extraction contains no useful safety information"
         )
 
+    # --------------------------------------------------
+    # Evidence check
+    # --------------------------------------------------
 
-    # Check non-evidence fields
-    for field in EXPECTED_FIELDS:
+    evidence = result.get("evidence")
 
-        if field == "evidence":
-            continue
+    if not isinstance(evidence, list):
+        issues.append("Evidence must be a list")
 
-        value = result.get(field)
+    elif len(evidence) == 0:
+        issues.append("No evidence extracted")
 
-        if value is not None and not isinstance(value, str):
+    # --------------------------------------------------
+    # Confidence check
+    # --------------------------------------------------
 
-            validation["issues"].append(
-                f"{field} should be a string or null"
-            )
+    confidence = result.get("confidence")
 
+    if not isinstance(confidence, (int, float)):
+        issues.append("Confidence must be numeric")
 
-    return validation
+    elif confidence < 0 or confidence > 1:
+        issues.append("Confidence must be between 0 and 1")
+
+    return {
+        "is_valid": len(issues) == 0,
+        "issues": issues
+    }

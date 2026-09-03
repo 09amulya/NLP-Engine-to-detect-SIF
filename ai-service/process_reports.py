@@ -1,139 +1,269 @@
 import json
+import time
 
 from extractor import extract_safety_information
 from normalizer import normalize_result
 from validator import validate_result
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
-
 INPUT_FILE = "common_reports.json"
 OUTPUT_FILE = "processed_reports.json"
 
-# Start small!
-NUMBER_OF_REPORTS = 10
+# Start small while testing
+MAX_REPORTS = 20
+
+MAX_RETRIES = 3
 
 
-# ============================================================
-# LOAD INGESTED REPORTS
-# ============================================================
+def load_reports():
 
-with open(INPUT_FILE, "r", encoding="utf-8") as file:
-    reports = json.load(file)
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-
-print("=" * 60)
-print("OLLAMA REPORT PROCESSING STARTED")
-print("=" * 60)
-
-print(f"Total available reports: {len(reports)}")
-print(f"Reports selected for processing: {NUMBER_OF_REPORTS}")
+        return json.load(file)
 
 
-# ============================================================
-# PROCESS REPORTS
-# ============================================================
+def save_results(results):
 
-processed_reports = []
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
 
-selected_reports = reports[:NUMBER_OF_REPORTS]
-
-for index, report in enumerate(selected_reports, start=1):
-
-    print("\n" + "-" * 60)
-    print(f"Processing report {index}/{NUMBER_OF_REPORTS}")
-    print(f"Source: {report['source_file']}")
-    print(f"Report ID: {report['report_id']}")
-
-    report_text = report["report_text"]
-
-    try:
-
-        # ----------------------------------------------------
-        # STEP 1: Send report to Ollama
-        # ----------------------------------------------------
-
-        raw_result = extract_safety_information(report_text)
+        json.dump(
+            results,
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
 
 
-        # ----------------------------------------------------
-        # STEP 2: Normalize
-        # ----------------------------------------------------
+def process_report(report):
 
-        normalized_result = normalize_result(raw_result)
+    report_id = report["report_id"]
+    original_text = (
+        report.get("text")
+        or report.get("original_report")
+        or report.get("report_text")
+    )
+    if not original_text:
+        raise ValueError(
+            f"No text field found in report: {report_id}"
+        )
+    print("\n" + "=" * 70)
+    print(f"Processing: {report_id}")
+    print("=" * 70)
+
+    for attempt in range(1, MAX_RETRIES + 1):
+
+        try:
+
+            print(
+                f"Ollama attempt {attempt}/{MAX_RETRIES}..."
+            )
+
+            # -----------------------------
+            # AI EXTRACTION
+            # -----------------------------
+
+            raw_result = extract_safety_information(
+                original_text
+            )
+
+            # -----------------------------
+            # NORMALIZATION
+            # -----------------------------
+
+            normalized_result = normalize_result(
+                raw_result
+            )
+
+            # -----------------------------
+            # VALIDATION
+            # -----------------------------
+
+            validation_result = validate_result(
+                normalized_result
+            )
+
+            # -----------------------------
+            # RESULT
+            # -----------------------------
+
+            if validation_result["is_valid"]:
+
+                print("Extraction successful.")
+
+                return {
+                    "report_id": report_id,
+
+                    "source_file": report.get(
+                        "source_file"
+                    ),
+
+                    "source_type": report.get(
+                        "source_type"
+                    ),
+
+                    "original_report": original_text,
+
+                    "raw_extraction": raw_result,
+
+                    "normalized_extraction":
+                        normalized_result,
+
+                    "validation":
+                        validation_result,
+
+                    "status": "SUCCESS"
+                }
+
+            else:
+
+                print(
+                    "Extraction needs review:"
+                )
+
+                for issue in validation_result["issues"]:
+                    print(" -", issue)
+
+                return {
+                    "report_id": report_id,
+
+                    "source_file": report.get(
+                        "source_file"
+                    ),
+
+                    "source_type": report.get(
+                        "source_type"
+                    ),
+
+                    "original_report": original_text,
+
+                    "raw_extraction": raw_result,
+
+                    "normalized_extraction":
+                        normalized_result,
+
+                    "validation":
+                        validation_result,
+
+                    "status": "REVIEW_REQUIRED"
+                }
+
+        except Exception as error:
+
+            print(
+                f"Extraction failed: {error}"
+            )
+
+            if attempt < MAX_RETRIES:
+
+                print("Retrying...")
+                time.sleep(1)
+
+            else:
+
+                print(
+                    "Maximum retries reached."
+                )
+
+                return {
+                    "report_id": report_id,
+
+                    "source_file": report.get(
+                        "source_file"
+                    ),
+
+                    "source_type": report.get(
+                        "source_type"
+                    ),
+
+                    "original_report": original_text,
+
+                    "raw_extraction": None,
+
+                    "normalized_extraction": None,
+
+                    "validation": {
+                        "is_valid": False,
+                        "issues": [
+                            str(error)
+                        ]
+                    },
+
+                    "status": "FAILED"
+                }
 
 
-        # ----------------------------------------------------
-        # STEP 3: Validate
-        # ----------------------------------------------------
+def main():
 
-        validation_result = validate_result(normalized_result)
+    reports = load_reports()
 
+    print(
+        f"Total reports available: {len(reports)}"
+    )
 
-        # ----------------------------------------------------
-        # SAVE RESULT
-        # ----------------------------------------------------
+    reports_to_process = reports[:MAX_REPORTS]
 
-        processed_report = {
-            "report_id": report["report_id"],
-            "source_file": report["source_file"],
-            "source_type": report["source_type"],
-            "report_text": report_text,
-            "extracted_information": normalized_result,
-            "validation": validation_result
-        }
+    results = []
 
-        processed_reports.append(processed_report)
+    for report in reports_to_process:
 
-        print("Status: SUCCESS")
+        result = process_report(report)
 
+        results.append(result)
 
-    except Exception as error:
+        save_results(results)
 
-        print(f"Status: FAILED")
-        print(f"Error: {error}")
+    # ----------------------------------------
+    # FINAL SUMMARY
+    # ----------------------------------------
 
-        processed_reports.append({
-            "report_id": report["report_id"],
-            "source_file": report["source_file"],
-            "source_type": report["source_type"],
-            "report_text": report_text,
-            "error": str(error)
-        })
+    successful = sum(
+        1 for r in results
+        if r["status"] == "SUCCESS"
+    )
 
+    review_required = sum(
+        1 for r in results
+        if r["status"] == "REVIEW_REQUIRED"
+    )
 
-# ============================================================
-# SAVE OUTPUT
-# ============================================================
+    failed = sum(
+        1 for r in results
+        if r["status"] == "FAILED"
+    )
 
-with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
+    print("\n")
+    print("=" * 70)
+    print("PROCESSING COMPLETED")
+    print("=" * 70)
 
-    json.dump(
-        processed_reports,
-        file,
-        indent=4,
-        ensure_ascii=False
+    print(
+        f"Total processed: {len(results)}"
+    )
+
+    print(
+        f"Successful: {successful}"
+    )
+
+    print(
+        f"Review required: {review_required}"
+    )
+
+    print(
+        f"Failed: {failed}"
+    )
+
+    print(
+        f"Output saved to: {OUTPUT_FILE}"
     )
 
 
-# ============================================================
-# FINAL SUMMARY
-# ============================================================
-
-successful = sum(
-    1 for report in processed_reports
-    if "extracted_information" in report
-)
-
-failed = len(processed_reports) - successful
-
-
-print("\n" + "=" * 60)
-print("PROCESSING COMPLETED")
-print("=" * 60)
-
-print(f"Successful: {successful}")
-print(f"Failed: {failed}")
-print(f"Output file: {OUTPUT_FILE}")
+if __name__ == "__main__":
+    main()

@@ -1,8 +1,8 @@
 import os
 import json
+import re
 import pandas as pd
 import pdfplumber
-
 
 # ============================================================
 # CONFIGURATION
@@ -85,6 +85,78 @@ def read_csv_file(file_path):
 
     return reports
 
+# ============================================================
+# READ EXCEL FILES
+# ============================================================
+
+def read_excel_file(file_path):
+    reports = []
+
+    print(f"\nReading Excel: {file_path}")
+
+    try:
+        df = pd.read_excel(file_path)
+    except Exception as error:
+        print(f"ERROR reading Excel: {error}")
+        return reports
+
+    print(f"Rows found: {len(df)}")
+    print(f"Columns: {list(df.columns)}")
+
+    possible_text_columns = [
+        "Description",
+        "description",
+        "Narrative",
+        "narrative",
+        "Final Narrative",
+        "final_narrative",
+        "report_text",
+        "Report Text",
+        "Report",
+        "report",
+        "Incident Description",
+        "Incident_Description"
+    ]
+
+    text_column = None
+
+    for column in possible_text_columns:
+        if column in df.columns:
+            text_column = column
+            break
+
+    if text_column is None:
+        print("WARNING: No recognised description column found.")
+        print("This Excel file will be skipped.")
+        return reports
+
+    print(f"Using text column: {text_column}")
+
+    for index, row in df.iterrows():
+
+        text = row[text_column]
+
+        if pd.isna(text):
+            continue
+
+        text = str(text).strip()
+
+        if not text:
+            continue
+
+        report = {
+            "report_id": (
+                f"{os.path.basename(file_path)}"
+                f"_row_{index}"
+            ),
+            "source_file": os.path.basename(file_path),
+            "source_type": "xlsx",
+            "report_text": text
+        }
+
+        reports.append(report)
+
+    return reports
 
 # ============================================================
 # READ PDF FILES
@@ -95,60 +167,125 @@ def read_pdf_file(file_path):
 
     print(f"\nReading PDF: {file_path}")
 
-    full_text = ""
+    pages_text = []
 
     try:
         with pdfplumber.open(file_path) as pdf:
 
             print(f"Pages found: {len(pdf.pages)}")
 
-            for page in pdf.pages:
+            for page_number, page in enumerate(pdf.pages, start=1):
+
                 page_text = page.extract_text()
 
                 if page_text:
-                    full_text += page_text + "\n"
+                    pages_text.append({
+                        "page": page_number,
+                        "text": page_text
+                    })
 
     except Exception as error:
         print(f"ERROR reading PDF: {error}")
         return reports
 
-    # For now, save the extracted PDF text as chunks.
-    # Later we can improve splitting based on:
-    # DATE:, COUNTRY:, NARRATIVE:, etc.
-
-    if not full_text.strip():
+    if not pages_text:
         print("WARNING: No readable text found in PDF.")
         return reports
 
-    # Split large PDF into manageable chunks
-    chunk_size = 5000
+    # --------------------------------------------------------
+    # Combine PDF text while preserving page information
+    # --------------------------------------------------------
 
-    chunks = [
-        full_text[i:i + chunk_size]
-        for i in range(0, len(full_text), chunk_size)
-    ]
+    full_text = "\n".join(
+        item["text"] for item in pages_text
+    )
 
-    for index, chunk in enumerate(chunks):
+    if not full_text.strip():
+        print("WARNING: PDF text is empty.")
+        return reports
 
-        chunk = chunk.strip()
+    # --------------------------------------------------------
+    # Split using DATE: as report boundary
+    # --------------------------------------------------------
 
-        if not chunk:
-            continue
+    # Example:
+    # DATE:
+    # 13 Mar 2025
+    #
+    # DATE:
+    # 18 Aug 2025
 
-        report = {
-            "report_id": f"{os.path.basename(file_path)}_chunk_{index}",
-            "source_file": os.path.basename(file_path),
-            "source_type": "pdf",
-            "report_text": chunk
-        }
+    date_pattern = re.compile(
+        r"\bDATE\s*:",
+        re.IGNORECASE
+    )
 
-        reports.append(report)
+    matches = list(date_pattern.finditer(full_text))
 
-    print(f"Text chunks created: {len(reports)}")
+    print(f"DATE markers found: {len(matches)}")
+
+    # --------------------------------------------------------
+    # If DATE markers exist, create one report per DATE section
+    # --------------------------------------------------------
+
+    if matches:
+
+        for index, match in enumerate(matches):
+
+            start = match.start()
+
+            if index + 1 < len(matches):
+                end = matches[index + 1].start()
+            else:
+                end = len(full_text)
+
+            report_text = full_text[start:end].strip()
+
+            if not report_text:
+                continue
+
+            report = {
+                "report_id": f"{os.path.basename(file_path)}_report_{index}",
+                "source_file": os.path.basename(file_path),
+                "source_type": "pdf",
+                "report_text": report_text
+            }
+
+            reports.append(report)
+
+    else:
+
+        # ----------------------------------------------------
+        # Fallback if DATE markers are not found
+        # ----------------------------------------------------
+
+        print(
+            "WARNING: DATE markers not found. "
+            "Using page-level chunks as fallback."
+        )
+
+        for index, item in enumerate(pages_text):
+
+            report_text = item["text"].strip()
+
+            if not report_text:
+                continue
+
+            report = {
+                "report_id": (
+                    f"{os.path.basename(file_path)}"
+                    f"_page_{item['page']}"
+                ),
+                "source_file": os.path.basename(file_path),
+                "source_type": "pdf",
+                "report_text": report_text
+            }
+
+            reports.append(report)
+
+    print(f"Individual PDF reports created: {len(reports)}")
 
     return reports
-
-
 # ============================================================
 # MAIN INGESTION FUNCTION
 # ============================================================
@@ -185,6 +322,12 @@ def ingest_all_data():
         elif filename.lower().endswith(".pdf"):
 
             reports = read_pdf_file(file_path)
+            all_reports.extend(reports)
+
+        # Excel
+        elif filename.lower().endswith((".xlsx", ".xls")):
+
+            reports = read_excel_file(file_path)
             all_reports.extend(reports)
 
         else:
