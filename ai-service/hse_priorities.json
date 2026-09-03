@@ -1,0 +1,419 @@
+[
+  {
+    "priority_rank": 1,
+    "pattern_id": "PREC-002",
+    "priority": "CRITICAL",
+    "hse_priority_score": 24,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "lifting hazard",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Australia",
+      "Equatorial Guinea",
+      "Gabon"
+    ],
+    "occurrence_count": 3,
+    "high_sif_count": 2,
+    "medium_sif_count": 1,
+    "recommendation": "Immediate HSE review recommended for Lifting, crane, rigging, deck operations. Focus on lifting hazard and the recurring barrier failure: inadequate hazard identification or risk assessment.",
+    "report_ids": [
+      "2025sh.pdf_report_1",
+      "2025sh.pdf_report_10",
+      "2025sh.pdf_report_17"
+    ]
+  },
+  {
+    "priority_rank": 2,
+    "pattern_id": "PREC-003",
+    "priority": "MEDIUM",
+    "hse_priority_score": 9,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "stored energy",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Line of fire",
+      "Work authorization"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 1,
+    "medium_sif_count": 0,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified stored energy risk.",
+    "report_ids": [
+      "2025sh.pdf_report_2"
+    ]
+  },
+  {
+    "priority_rank": 3,
+    "pattern_id": "PREC-010",
+    "priority": "MEDIUM",
+    "hse_priority_score": 9,
+    "activity": "Production operations",
+    "hazard": "dropped object",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Line of fire",
+      "Work authorization"
+    ],
+    "countries": [
+      "Congo"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 1,
+    "medium_sif_count": 0,
+    "recommendation": "Continue monitoring Production operations and review the identified dropped object risk.",
+    "report_ids": [
+      "2025sh.pdf_report_9"
+    ]
+  },
+  {
+    "priority_rank": 4,
+    "pattern_id": "PREC-001",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Transport - Land",
+    "hazard": "vehicle/road hazard",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Driving",
+      "Line of fire"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Transport - Land and review the identified vehicle/road hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_0"
+    ]
+  },
+  {
+    "priority_rank": 5,
+    "pattern_id": "PREC-004",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Maintenance, inspection, testing",
+    "hazard": "dropped object",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Bypassing safety controls",
+      "Work authorization"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Maintenance, inspection, testing and review the identified dropped object risk.",
+    "report_ids": [
+      "2025sh.pdf_report_3"
+    ]
+  },
+  {
+    "priority_rank": 6,
+    "pattern_id": "PREC-005",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Office, warehouse, accommodation, catering",
+    "hazard": "dropped object",
+    "barrier_failure": "Unknown barrier failure",
+    "related_lsrs": [
+      "Line of fire"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Office, warehouse, accommodation, catering and review the identified dropped object risk.",
+    "report_ids": [
+      "2025sh.pdf_report_4"
+    ]
+  },
+  {
+    "priority_rank": 7,
+    "pattern_id": "PREC-006",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "Unknown hazard",
+    "barrier_failure": "inadequate communication",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified Unknown hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_5"
+    ]
+  },
+  {
+    "priority_rank": 8,
+    "pattern_id": "PREC-007",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Transport - Land",
+    "hazard": "vehicle/road hazard",
+    "barrier_failure": "Unknown barrier failure",
+    "related_lsrs": [
+      "Driving",
+      "Line of fire"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Transport - Land and review the identified vehicle/road hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_6"
+    ]
+  },
+  {
+    "priority_rank": 9,
+    "pattern_id": "PREC-008",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Excavation, trenching, ground disturbance",
+    "hazard": "electrical energy",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Energy isolation",
+      "Line of fire"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Excavation, trenching, ground disturbance and review the identified electrical energy risk.",
+    "report_ids": [
+      "2025sh.pdf_report_7"
+    ]
+  },
+  {
+    "priority_rank": 10,
+    "pattern_id": "PREC-009",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "Unknown hazard",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Tunisia"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified Unknown hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_8"
+    ]
+  },
+  {
+    "priority_rank": 11,
+    "pattern_id": "PREC-011",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "lifting hazard",
+    "barrier_failure": "inadequate supervision",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified lifting hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_11"
+    ]
+  },
+  {
+    "priority_rank": 12,
+    "pattern_id": "PREC-012",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Maintenance, inspection, testing",
+    "hazard": "Unknown hazard",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Energy isolation",
+      "Line of fire"
+    ],
+    "countries": [
+      "Mauritania"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Maintenance, inspection, testing and review the identified Unknown hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_12"
+    ]
+  },
+  {
+    "priority_rank": 13,
+    "pattern_id": "PREC-013",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "dropped object",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Namibia"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified dropped object risk.",
+    "report_ids": [
+      "2025sh.pdf_report_13"
+    ]
+  },
+  {
+    "priority_rank": 14,
+    "pattern_id": "PREC-014",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "Unknown hazard",
+    "barrier_failure": "inadequate supervision",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified Unknown hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_14"
+    ]
+  },
+  {
+    "priority_rank": 15,
+    "pattern_id": "PREC-015",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Office, warehouse, accommodation, catering",
+    "hazard": "lifting hazard",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Office, warehouse, accommodation, catering and review the identified lifting hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_15"
+    ]
+  },
+  {
+    "priority_rank": 16,
+    "pattern_id": "PREC-016",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Maintenance, inspection, testing",
+    "hazard": "stored energy",
+    "barrier_failure": "inadequate hazard identification or risk assessment",
+    "related_lsrs": [
+      "Energy isolation",
+      "Line of fire"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Maintenance, inspection, testing and review the identified stored energy risk.",
+    "report_ids": [
+      "2025sh.pdf_report_16"
+    ]
+  },
+  {
+    "priority_rank": 17,
+    "pattern_id": "PREC-018",
+    "priority": "MEDIUM",
+    "hse_priority_score": 6,
+    "activity": "Lifting, crane, rigging, deck operations",
+    "hazard": "lifting hazard",
+    "barrier_failure": "Unknown barrier failure",
+    "related_lsrs": [
+      "Line of fire",
+      "Safe mechanical lifting"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 1,
+    "recommendation": "Continue monitoring Lifting, crane, rigging, deck operations and review the identified lifting hazard risk.",
+    "report_ids": [
+      "2025sh.pdf_report_19"
+    ]
+  },
+  {
+    "priority_rank": 18,
+    "pattern_id": "PREC-017",
+    "priority": "LOW",
+    "hse_priority_score": 4,
+    "activity": "Drilling, workover, well operations",
+    "hazard": "Unknown hazard",
+    "barrier_failure": "Unknown barrier failure",
+    "related_lsrs": [
+      "Line of fire",
+      "Working at height"
+    ],
+    "countries": [
+      "India"
+    ],
+    "occurrence_count": 1,
+    "high_sif_count": 0,
+    "medium_sif_count": 0,
+    "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+    "report_ids": [
+      "2025sh.pdf_report_18"
+    ]
+  }
+]
