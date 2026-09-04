@@ -43,7 +43,7 @@ const navigation = [
         icon: "◆",
       },
       {
-        id: "monitoring",
+        id: "interventions",
         label: "Intervention Monitoring",
         icon: "↗",
       },
