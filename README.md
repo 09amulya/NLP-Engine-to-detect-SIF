@@ -101,3 +101,19 @@ The ingestion script automatically scans the `input-data` directory.
 Run:
 
     python ingest_data.py
+
+for making of the work of the fast api 
+
+pip install fastapi uvicorn
+
+and then 
+
+uvicorn main:app --reload --port 8000
+
+not only this then 
+
+on the the cd backend
+
+npm install
+
+npm run dev

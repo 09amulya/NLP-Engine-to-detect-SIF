@@ -24,7 +24,7 @@ type InterventionData = {
   related_reports: any[];
 };
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "http://localhost:5000/api";
 
 export default function InterventionMonitoring() {
   const [priorities, setPriorities] = useState<Priority[]>([]);
